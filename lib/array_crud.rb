@@ -1,35 +1,35 @@
 def create_an_empty_array
-  my_array = []
+  array = []
 end
 
 def create_an_array
-  my_array = [1, 2, 3, 4]
+  array = [1, 2, 3, 4]
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array << element
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  my_array.unshift(element)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  my_array.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  my_array.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  my_array[index_number]
+  array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  my_array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  my_array[-1]
+  array[-1]
 end
